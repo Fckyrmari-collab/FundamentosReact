@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import foto from './assets/imagen.jpg'
+import header from "./components/header"
+import perfil from "./components/perfil"
 import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
