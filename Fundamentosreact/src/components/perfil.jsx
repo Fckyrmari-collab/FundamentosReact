@@ -1,8 +1,9 @@
-function Perfil(){
+import foto from '../assets/imagen.jpg'
+function DatosBasicos(){
 
 return(
 
-         <div classname="perfil">
+         <div className="contenedor">
           <h1>ANALISIS Y DESARROLLO DE SOFTWARE</h1>
           <h2>TECNOLOGO</h2>
           <p>HOJA DE VIDA APRENDIZ</p>
@@ -16,4 +17,4 @@ return(
          
 )
 }
-export default Perfil
+export default DatosBasicos
