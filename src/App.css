@@ -1,0 +1,87 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 30px;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  color: #5c4b51;
+}
+
+/* Contenedor principal */
+#root {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Cada sección */
+div {
+  background: #fff8fb;
+  border: 2px solid #ffd6e5;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 5px 15px rgba(255, 182, 193, 0.15);
+}
+
+/* Título principal */
+h1 {
+  color: #ee89a7;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* Subtítulos */
+h2 {
+  color: #8b5d6b;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+/* Párrafos */
+p {
+  color: #7a6a70;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Imagen */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 230px;
+  border-radius: 50%;
+  border: 5px solid #ffc8dd;
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4);
+}
+
+/* Botón */
+button {
+  display: block;
+  margin: 30px auto;
+  background: linear-gradient(135deg, #f8b4c8, #f48fb1);
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #f48fb1, #ec6f99);
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(236, 111, 153, 0.4);
+}
+
+/* Información extra */
+.sobre-mi {
+  margin-top: 20px;
+  text-align: center;
+  background: #fff0f5;
+  border-radius: 15px;
+  padding: 20px;
+}
